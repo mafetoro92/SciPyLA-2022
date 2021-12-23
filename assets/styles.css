@@ -377,6 +377,129 @@ hr {
     border: 1px solid #007bff;
 }
 
+/* workshops section */
+.workshops-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.workshops-container h3.year {
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.workshops-container .event {
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .event-left {
+    background: #222;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+    font-size: 56px;
+}
+
+.event .event-left .month {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event .event-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+    color: #218bbb;
+    text-transform: uppercase;
+}
+
+.event .event-right .event-timing {
+    background-color: #fff8ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 24px 0;
+    font-size: 14px;
+}
+
+.event .event-right .event-timing i {
+    margin-top: 8px;
+    height: 20px;
+    padding-right: 8px;
+}
+
+/* talks section */
+
+.talks-activities {
+    display: flex;
+    background-color: #E0E0E2;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.speaker-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.speaker-name img {
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.talk-name {
+    background-color: yellow;
+
+}
+
+.general-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-block {
+    margin: 10px;
+    background-color: rgb(251, 188, 40);
+    padding: 10px;
+    width: 50%;
+
+}
+
+.second-block {
+    margin: 10px;
+    background-color: #218bbb;
+    padding: 10px;
+    width: 50%;
+}
+
 /* footer section */
 
 footer {
@@ -569,8 +692,41 @@ footer {
     #U-salta {
         font-size: 13px;
     }
+}
 
+/* Responsive workshops  section with 850x*/
+@media (max-width:850px) {
+    .event {
+        flex-direction: column;
+    }
 
+    .event .event-left {
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .event .event-left .event-date .date,
+    .event .event-left .event-date .month {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .event .event-left .event-date {
+        padding: 10px 0;
+    }
+
+    .workshops-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+/* Responsive workshops  section with 600x*/
+@media (max-width:600px) {
+    .workshops-container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }
 
 

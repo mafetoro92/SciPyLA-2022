@@ -11,3 +11,4 @@
 * Marcos Vaira, Carlos Cabrera.
 * Liliana Hurtado, Lucy Jimenez.
 * Alex De Siqueira.
+# Organizacion del menu de Actividades y Cronograma.

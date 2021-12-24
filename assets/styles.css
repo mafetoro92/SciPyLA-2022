@@ -453,7 +453,6 @@ hr {
 
 .talks-activities {
     display: flex;
-    background-color: #E0E0E2;
     width: 800px;
     justify-content: center;
     align-items: center;
@@ -468,6 +467,12 @@ hr {
     justify-content: space-around;
 }
 
+.speaker-name h3 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+
 .speaker-name img {
     width: 100px;
     padding: 10px;
@@ -475,9 +480,10 @@ hr {
     border-radius: 50%;
 }
 
-.talk-name {
-    background-color: yellow;
-
+.talk-name h3 {
+    text-transform: uppercase;
+    font-size: 10;
+    color:red;
 }
 
 .general-info {
@@ -490,7 +496,7 @@ hr {
     background-color: rgb(251, 188, 40);
     padding: 10px;
     width: 50%;
-
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
 }
 
 .second-block {
@@ -498,6 +504,7 @@ hr {
     background-color: #218bbb;
     padding: 10px;
     width: 50%;
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
 }
 
 /* footer section */

@@ -9,3 +9,4 @@
 * Silvana Flores Larsen, Gustavo Gil, Walter Garzon, Daniel Hoyos.
 * Rebeca Acosta, Julio Nasser y el Vice Decano, Gonzalo Veizaga.
 * Marcos Vaira, Carlos Cabrera.
+* Liliana Hurtado.

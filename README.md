@@ -10,5 +10,5 @@
 * Rebeca Acosta, Julio Nasser y el Vice Decano, Gonzalo Veizaga.
 * Marcos Vaira, Carlos Cabrera.
 * Liliana Hurtado, Lucy Jimenez.
-* Alex De Siqueira.
+* Alex De Siqueira, Arthur Alvin.
 # Organizacion del menu de Actividades y Cronograma.
